@@ -1,7 +1,7 @@
 /// <reference types="cypress" />
 
 describe('Store Home Page - Scenarios', () => {
-    it('Visit Store Home Page', () => {
+    it('Visiting Store Home Page', () => {
         cy.visit(Cypress.env('BASE_URL'))
     })
 
