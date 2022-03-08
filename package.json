@@ -10,7 +10,7 @@
   "keywords": [
     "Cypress"
   ],
-  "author": "Bruno Corso Kutzke",
+  "author": "Bruno CK",
   "license": "ISC",
   "dependencies": {
     "cypress": "^8.2.0"
