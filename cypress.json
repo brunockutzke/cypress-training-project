@@ -1,1 +1,8 @@
-{}
+{
+    "retries": {
+        "runMode": 2,
+        "openMode": 2
+    },
+    "pageLoadTimeout": 60000,
+    "video": false
+}
