@@ -1,0 +1,1 @@
+A Cypress training project.
