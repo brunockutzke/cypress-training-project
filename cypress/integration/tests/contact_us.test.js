@@ -1,6 +1,6 @@
 /// <reference types="cypress" />
 
-describe('Your Logo Store - Contact Us', () => {
+describe('Yours Logo Store - Contact Us', () => {
     it('Should validate message sending', () => {
         cy.visit(Cypress.env('BASE_URL'))
         
