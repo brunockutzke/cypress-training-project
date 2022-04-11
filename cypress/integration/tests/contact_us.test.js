@@ -2,7 +2,7 @@
 
 describe('Your Logo Store - Contact Us', () => {
     it('Should validate message sending', () => {
-        cy.visit(Cypress.env('BASE_URL'))
+        cy.visit('http://automationpractice.com/index.php')
         
         cy.get('#contact-link')
         .click()
@@ -10,7 +10,7 @@ describe('Your Logo Store - Contact Us', () => {
         cy.get('#id_contact')
         .select('Webmaster')
 
-        cy.get('#email')
+        /* cy.get('#email')
         .type(Cypress.env('EMAIL'))
 
         cy.get('#id_order')
@@ -20,6 +20,6 @@ describe('Your Logo Store - Contact Us', () => {
         .type('Teste')
         
         cy.get('#submitMessage')
-        .click()
+        .click() */
     }) 
 })
