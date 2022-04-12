@@ -4,7 +4,7 @@
   "description": "Basic Cypress Project",
   "main": "index.js",
   "scripts": {
-    "test:full": "cypress run --headless --browser chrome --spec cypress/integration/**/store.test.js",
+    "test:full": "cypress run --headless --record --browser chrome --spec cypress/integration/**/store.test.js",
     "cypress:open": "cypress open"
   },
   "keywords": [
