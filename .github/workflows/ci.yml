@@ -23,7 +23,7 @@ jobs:
           install-command: npm install
           start: npm run test:full
           wait-on: 'http://localhost:3000'
-          wait-on-timeout: 120
+          wait-on-timeout: 160
           browser: chrome
           record: true
           parallel: true
