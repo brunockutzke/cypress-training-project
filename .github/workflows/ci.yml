@@ -23,7 +23,7 @@ jobs:
           install-command: npm install
           start: npm run test:full
           wait-on: 'http://automationpractice.com/index.php'
-          wait-on-timeout: 200
+          wait-on-timeout: 150
           browser: chrome
           record: true
           parallel: true

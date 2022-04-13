@@ -14,5 +14,8 @@
   "license": "ISC",
   "dependencies": {
     "cypress": "^8.2.0"
+  },
+  "devDependencies": {
+    "git-commit-msg-linter": "^4.1.1"
   }
 }
