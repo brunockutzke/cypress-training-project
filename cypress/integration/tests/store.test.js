@@ -1,6 +1,6 @@
 /// <reference types="cypress" />
 
-describe('Store Home Page - Scenarios', () => {
+describe('Store Home Pages - Scenarios', () => {
     it('Visiting Store Home Page', () => {
         cy.visit('http://automationpractice.com/index.php')
     })
